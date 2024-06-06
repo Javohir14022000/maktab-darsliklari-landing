@@ -30,7 +30,7 @@ function getImageNames(prefix ,startIndex , endIndex,ext){
   const imageNames = [];
 
   for(let i=startIndex;i<=endIndex;i++){
-     imageNames.push(`./images/${prefix}${i}.${ext}`)
+     imageNames.push(`./${prefix}${i}.${ext}`)
   }
 
   return imageNames;
